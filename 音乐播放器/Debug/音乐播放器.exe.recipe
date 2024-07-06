@@ -2,11 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-<<<<<<< HEAD
       <FullPath>C:\Library\GitLearning\Music Recommand System\音乐播放器\Debug\音乐播放器.exe</FullPath>
-=======
-      <FullPath>C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\Debug\音乐播放器.exe</FullPath>
->>>>>>> dd859500d5116c2e1f8a968c3479419e0b9f4d4f
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

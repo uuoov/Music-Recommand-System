@@ -8,11 +8,7 @@
 #include"list.h"
 
 
-<<<<<<< HEAD
 extern char filepath2[100] = "C:\\Users\\m1342\\Music\\";
-=======
-extern char filepath2[100] ="C:\\Users\\m1342\\Music\\";
->>>>>>> dd859500d5116c2e1f8a968c3479419e0b9f4d4f
 
 int face_user();
 int face_play();

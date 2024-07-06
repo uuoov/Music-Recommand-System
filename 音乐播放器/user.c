@@ -13,11 +13,7 @@ struct user {
 char path_user[150] = "userInfo.txt";  //储存用户信息的文件
 
 //读取指定文件中的用户信息，并把相关信息储存到链表
-<<<<<<< HEAD
 struct user* pre_user()
-=======
-struct user* pre_user() 
->>>>>>> dd859500d5116c2e1f8a968c3479419e0b9f4d4f
 {
 	FILE* fp;
 	errno_t err;
@@ -90,11 +86,7 @@ struct user* logIn(struct user* head)
 
 	strcpy(account, input_AC());
 
-<<<<<<< HEAD
 	while (p != NULL && strcmp(p->account, account) != 0)
-=======
-	while (p != NULL && strcmp(p->account, account) != 0) 
->>>>>>> dd859500d5116c2e1f8a968c3479419e0b9f4d4f
 	{
 		p = p->next;
 	}

@@ -1,5 +1,4 @@
 ﻿  face.c
-<<<<<<< HEAD
 C:\Library\GitLearning\Music Recommand System\音乐播放器\face.c(88,16): warning C4013: “kbhit”未定义；假设外部返回 int
 C:\Library\GitLearning\Music Recommand System\音乐播放器\face.c(120,14): warning C4013: “getch”未定义；假设外部返回 int
 C:\Library\GitLearning\Music Recommand System\音乐播放器\face.c(53,6): warning C4101: “a”: 未引用的局部变量
@@ -9,44 +8,12 @@ C:\Library\GitLearning\Music Recommand System\音乐播放器\list.c(107,52): wa
 C:\Library\GitLearning\Music Recommand System\音乐播放器\list.c(109,49): warning C4133: “=”: 从“media *”到“list *”的类型不兼容
 C:\Library\GitLearning\Music Recommand System\音乐播放器\list.c(130,13): warning C4133: “return”: 从“list *”到“media *”的类型不兼容
   main.c
-  play.c
-C:\Library\GitLearning\Music Recommand System\音乐播放器\play.c(97,6): warning C4101: “a”: 未引用的局部变量
-C:\Library\GitLearning\Music Recommand System\音乐播放器\play.c(135,6): warning C4101: “a”: 未引用的局部变量
-C:\Library\GitLearning\Music Recommand System\音乐播放器\play.c(160,6): warning C4101: “a”: 未引用的局部变量
   user.c
 C:\Library\GitLearning\Music Recommand System\音乐播放器\user.c(31,27): warning C4013: “malloc”未定义；假设外部返回 int
 C:\Library\GitLearning\Music Recommand System\音乐播放器\user.c(38,9): warning C4013: “free”未定义；假设外部返回 int
   正在生成代码...
 C:\Library\GitLearning\Music Recommand System\音乐播放器\user.c(108): warning C4715: “logIn”: 不是所有的控件路径都返回值
-C:\Library\GitLearning\Music Recommand System\音乐播放器\play.c(58): warning C4715: “getLast”: 不是所有的控件路径都返回值
-C:\Library\GitLearning\Music Recommand System\音乐播放器\play.c(89): warning C4172: 返回局部变量或临时变量的地址: state
-C:\Library\GitLearning\Music Recommand System\音乐播放器\face.c(162): warning C4172: 返回局部变量或临时变量的地址: account
 C:\Library\GitLearning\Music Recommand System\音乐播放器\face.c(172): warning C4172: 返回局部变量或临时变量的地址: account
+C:\Library\GitLearning\Music Recommand System\音乐播放器\face.c(162): warning C4172: 返回局部变量或临时变量的地址: account
 C:\Library\GitLearning\Music Recommand System\音乐播放器\face.c(182): warning C4172: 返回局部变量或临时变量的地址: password
   音乐播放器.vcxproj -> C:\Library\GitLearning\Music Recommand System\音乐播放器\Debug\音乐播放器.exe
-=======
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\face.c(88,16): warning C4013: “kbhit”未定义；假设外部返回 int
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\face.c(120,14): warning C4013: “getch”未定义；假设外部返回 int
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\face.c(53,6): warning C4101: “a”: 未引用的局部变量
-  list.c
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\list.c(18,19): warning C4013: “face_fileFailure”未定义；假设外部返回 int
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\list.c(107,52): warning C4133: “=”: 从“media *”到“list *”的类型不兼容
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\list.c(109,49): warning C4133: “=”: 从“media *”到“list *”的类型不兼容
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\list.c(130,13): warning C4133: “return”: 从“list *”到“media *”的类型不兼容
-  main.c
-  play.c
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\play.c(97,6): warning C4101: “a”: 未引用的局部变量
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\play.c(135,6): warning C4101: “a”: 未引用的局部变量
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\play.c(160,6): warning C4101: “a”: 未引用的局部变量
-  user.c
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\user.c(31,27): warning C4013: “malloc”未定义；假设外部返回 int
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\user.c(38,9): warning C4013: “free”未定义；假设外部返回 int
-  正在生成代码...
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\user.c(108): warning C4715: “logIn”: 不是所有的控件路径都返回值
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\play.c(58): warning C4715: “getLast”: 不是所有的控件路径都返回值
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\play.c(89): warning C4172: 返回局部变量或临时变量的地址: state
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\face.c(172): warning C4172: 返回局部变量或临时变量的地址: account
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\face.c(162): warning C4172: 返回局部变量或临时变量的地址: account
-C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\face.c(182): warning C4172: 返回局部变量或临时变量的地址: password
-  音乐播放器.vcxproj -> C:\Users\m1342\Desktop\Lesson\C-Program\音乐播放器\Debug\音乐播放器.exe
->>>>>>> dd859500d5116c2e1f8a968c3479419e0b9f4d4f
