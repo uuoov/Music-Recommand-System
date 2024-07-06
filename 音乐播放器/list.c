@@ -58,9 +58,9 @@ struct list* getChoice_list(struct list* head)//输入歌曲编号，返回指向对应歌曲信
 
 	printf("\t\t\t\t请输入歌单编号");
 	scanf("%d", &choice_list);
-	while (p != NULL) 
+	while (p != NULL)
 	{
-		if (p->num == choice_list) 
+		if (p->num == choice_list)
 		{
 			flag_list = 1;
 			break;
@@ -68,14 +68,14 @@ struct list* getChoice_list(struct list* head)//输入歌曲编号，返回指向对应歌曲信
 		p = p->next;
 	}
 
-	while (flag_list == 0) 
+	while (flag_list == 0)
 	{
 		p = head->next;
 		printf("\t\t\t\t不存在！请重新输入");
 		scanf("%d", &choice_list);
-		while (p != NULL) 
+		while (p != NULL)
 		{
-			if (p->num == choice_list) 
+			if (p->num == choice_list)
 			{
 				flag_list = 1;
 				break;

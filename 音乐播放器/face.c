@@ -8,7 +8,7 @@
 #include"list.h"
 
 
-extern char filepath2[100] ="C:\\Users\\m1342\\Music\\";
+extern char filepath2[100] = "C:\\Users\\m1342\\Music\\";
 
 int face_user();
 int face_play();
